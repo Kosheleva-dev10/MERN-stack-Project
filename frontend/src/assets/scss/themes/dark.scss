@@ -1,0 +1,12 @@
+@import './colors.scss';
+
+// Theme colors
+$theme-colors: (
+  primary: map-get($map: $colors, $key: 'blue-lagoon'),
+  success: map-get($map: $colors, $key: 'atoll'),
+  info: map-get($map: $colors, $key: 'fountain-blue'),
+  warning: map-get($map: $colors, $key: 'japonica'),
+  danger: map-get($map: $colors, $key: 'merlot')
+);
+
+@import '../main';
